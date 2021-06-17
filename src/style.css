@@ -1,0 +1,37 @@
+body {
+    background-color: var(--bs-dark) !important;
+    font-family: "Raleway", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+#hero {
+    
+}
+
+
+
+.navbar-brand {
+    color: var(--bs-teal) !important;
+}
+
+.navbar-dark .navbar-toggler {
+    cursor: pointer;
+    border-color: transparent !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+@media only screen and (max-width: 34em){
+    #hero {
+        background-color: black;
+    }
+    .nav-item {
+        padding: 0;
+    }
+
+}
